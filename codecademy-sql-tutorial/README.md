@@ -1,1 +1,1 @@
-Course link: https://mode.com/sql-tutorial/
+Course link: https://www.codecademy.com/enrolled/courses/intro-to-sql
