@@ -28,11 +28,8 @@ CREATE TABLE celebs (
 -- CREATE TABLE
 --  is a clause that tells SQL you want to create a new table.
 -- 2. celebs is the name of the table.
--- 3. (id INTEGER, name TEXT, age INTEGER) is a list of parameters defining each column, or attribute in the table and its
--- 
--- data type
+-- 3. (id INTEGER, name TEXT, age INTEGER) is a list of parameters defining each column, or attribute in the table and its data type
 -- :
---
 -- id is the first column in the table. It stores values of data type INTEGER
 -- name is the second column in the table. It stores values of data type TEXT
 -- age is the third column in the table. It stores values of data type INTEGER
@@ -65,11 +62,10 @@ SELECT name FROM celebs;
 -- 2. name specifies the column to query data from.
 -- 3. FROM celebs specifies the name of the table to query data from. In this statement, data is queried from the celebs table.
 SELECT * FROM celebs;
--- * is a special wildcard character that we have been using. It allows you to select every column in a table without having to name each one individually. Here, the result set contains every column in the celebs table.
+-- * is a special wildcard character that we have been using. It allows you to select every column in a table without having to name each one individually.
+-- Here, the result set contains every column in the celebs table.
 --
 -- SELECT statements always return a new table called the result set.
-
-
 
 -- Alter:-
 -- The ALTER TABLE statement adds a new column to a table. You can use this command when you want to add columns to a table. The statement below adds a new column twitter_handle to the celebs table.
@@ -85,8 +81,6 @@ ADD COLUMN twitter_handle TEXT;
 -- twitter_handle is the name of the new column being added
 -- TEXT is the data type for the new column
 -- 4. NULL is a special value in SQL that represents missing or unknown data. Here, the rows that existed before the column was added have NULL (∅) values for twitter_handle.
-
-
 
 -- Update
 -- The UPDATE statement edits a row in a table. You can use the UPDATE statement when you want to change existing records. The statement below updates the record with an id value of 4 to have the twitter_handle @taylorswift13.
